@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.TreeSet;
+
 /**
  * @Author:peter
  * @Date:2020/11/6 16:41
@@ -16,6 +18,18 @@ public class TestController {
     @ResponseBody
     public String hello(){
         return "hello demo";
+    }
+
+    public static void main(String[] args) {
+        TreeSet<Object> set = new TreeSet<>();
+        set.add("a");
+        set.add("y");
+        set.add("h");
+        set.add("b");
+
+        System.out.println(set.toString());
+
+        String one = "one";
     }
 
 }
