@@ -6,7 +6,7 @@ pipeline {
         stage('pull code'){
           steps{
             checkout([$class: 'GitSCM',
-            branches: [[name: '*/${branch}']],
+            branches: [[name: '*/master']],
             doGenerateSubmoduleConfigurations: false,
             extensions: [],
              submoduleCfg: [],
