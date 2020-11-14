@@ -20,6 +20,6 @@ pipeline {
             echo 'pulish project'
           }
         }
-        
+
     }
 }
