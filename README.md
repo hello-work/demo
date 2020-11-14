@@ -3,4 +3,4 @@ hello master
 
 new dev
 
-add hook
+add hook update
