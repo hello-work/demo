@@ -47,7 +47,6 @@ public class UploadVideoDemo {
             System.out.println("获取失败");
             e.printStackTrace();
         }
-        
     }
 
     /**
