@@ -4,5 +4,6 @@ hello master
 new dev
 
 add hook update
-update
+
+update pom.xml
 
